@@ -1,0 +1,16 @@
+name = Views Sub Query
+description = Allows sub query to construct a view.
+package = Views
+core = 7.x
+dependencies[] = views
+; Views handlers
+files[] = plugins/views/views_subquery_handler_area.inc
+files[] = plugins/views/views_subquery_handler_field.inc
+files[] = plugins/views/views_subquery_handler_filter.inc
+files[] = plugins/views/views_subquery_handler_sort.inc
+; Views plugins
+files[] = plugins/views/views_subquery_plugin_access.inc
+files[] = plugins/views/views_subquery_plugin_cache.inc
+files[] = plugins/views/views_subquery_plugin_pager.inc
+files[] = plugins/views/views_subquery_plugin_query.inc
+files[] = plugins/views/views_subquery_plugin_wrapper.inc

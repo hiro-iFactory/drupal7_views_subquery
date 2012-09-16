@@ -25,8 +25,16 @@ update.php
 xmlrpc.php
 /includes
 /misc
-/modules     
+/modules
 /profiles
 /scripts
 /themes
 
+.gitignore
+.DS_Store
+.localized
+.nbproject
+.svn
+*.swp
+deploy_local.sh
+views_subquery_*.zip
